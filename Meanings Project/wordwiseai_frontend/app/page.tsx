@@ -29,7 +29,8 @@ export default function Home() {
           className="w-full px-6 py-4 border border-[var(--color-border)] rounded-xl text-xl focus:ring-4 focus:ring-[var(--color-primary)] focus:border-transparent outline-none transition duration-300 text-[var(--color-text-dark)] bg-[var(--color-background-light)] shadow-inner hover:shadow-md"
         />
         <button
-          type="submit"n          className="w-full bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-[var(--color-text-light)] font-bold py-4 px-6 rounded-xl text-2xl transition duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl"
+          type="submit"
+          className="w-full bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-[var(--color-text-light)] font-bold py-4 px-6 rounded-xl text-2xl transition duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
           Get Meaning
         </button>
