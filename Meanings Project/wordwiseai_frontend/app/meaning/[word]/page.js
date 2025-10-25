@@ -14,7 +14,8 @@ export default function MeaningPage() {
       const fetchMeaning = async () => {
         try {
           setLoading(true);
-          const response = await fetch(`http://localhost:8000/api/meaning/${word}/`);
+          const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
+          const response = await fetch(`${backendUrl}/api/meaning/${word}/`);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
