@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone', // Add this line
+  output: 'standalone',
+  distDir: '.next', // Explicitly set the build directory
   /* config options here */
 };
 
