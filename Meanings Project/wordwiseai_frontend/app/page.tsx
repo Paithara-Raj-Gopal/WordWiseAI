@@ -7,7 +7,7 @@ export default function Home() {
   const [word, setWord] = useState('');
   const router = useRouter();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (word.trim()) {
       router.push(`/meaning/${word.trim()}`);
