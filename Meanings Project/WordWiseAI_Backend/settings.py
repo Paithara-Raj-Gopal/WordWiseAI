@@ -135,5 +135,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", # For local development
-    # Add your Vercel frontend URL here after deployment, e.g., "https://your-frontend.vercel.app"
+    "https://wordwiseai-frontend-git-main-paithara-raj-gopals-projects.vercel.app",
 ]
